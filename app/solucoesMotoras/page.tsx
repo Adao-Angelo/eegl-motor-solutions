@@ -134,6 +134,83 @@ export default function MotorSolutions() {
           </div>
         </div>
       </section>
+
+      {/**__WHAT DO THEY SAY ABOUT US? ____________________  */}
+
+      <section className="relative p-[100px] ">
+        <div className="bg-gray-300 p-[68px] mb-[100px] flex justify-between rounded-[20px] ">
+          <div></div>
+          <div>
+            <h1 className="text-[40px] leading-[64px] mb-5 font-bold text-ct">
+              O QUE DIZEM SOBRE NÓS?
+            </h1>
+            <div className="flex gap-6 w-[700px] rounded-tl-[75px] rounded-bl-[75px] bg-zinc-950 text-cb items-center p-[10px]">
+              <img
+                className="w-[124px] h-[124px]  rounded-[50%]"
+                src="/motor-solutions.png"
+              />
+
+              <div>
+                <p>JAIRO MOREIRA</p>
+                <p className="text-[13px] mb-5">
+                  A equipe mostrou grande conhecimento técnico e utilizou peças
+                  de alta qualidade. Recomendo para qualquer necessidade de
+                  assistência técnica em veículos pesados. Certamente voltarei a
+                  utilizar seus serviços.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img className="absolute bottom-0 left-0" src="/member.png" />
+      </section>
+
+      {/**__ footer ____________________  */}
+      <footer className="bg-footerImage px-[180px] py-[200px] text-cb flex justify-between">
+        <h1 className="text-[50px] leading-[64px] font-bold mb-5">
+          COMO PODEMOS AJUDAR?
+        </h1>
+        <form action="#">
+          <div className="flex gap-[11px] mb-[15px]">
+            <input
+              className="p-[16px] rounded-[10px]"
+              type=""
+              placeholder="Nome completo"
+            />
+            <input
+              className="p-[16px] rounded-[10px]"
+              type=""
+              placeholder="E-mail"
+            />
+          </div>
+          <div className="flex gap-[11px] mb-[15px]">
+            <input
+              className="p-[16px] rounded-[10px]"
+              type=""
+              placeholder="Numero de telefone"
+            />
+            <input
+              className="p-[16px] rounded-[10px]"
+              type=""
+              placeholder="Escolha o serviço"
+            />
+          </div>
+          <div>
+            <textarea
+              name="help-text"
+              id="help"
+              className="w-[100%] rounded-[10px] min-h-[150px] p-[10px]"
+              placeholder="Como podemos Ajudar?"
+            ></textarea>
+          </div>
+          <button
+            className="bg-cd p-[13px] text-[20px] font-black rounded-[10px] mt-2 border-2 border-cb hover:bg-red-800"
+            type="submit"
+          >
+            Enviar
+          </button>
+        </form>
+      </footer>
     </main>
   );
 }
