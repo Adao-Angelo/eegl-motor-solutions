@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Motor Solutions Sie of page",
 };
 
-export default function RootLayout({
+export default function MotorSolutionsLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

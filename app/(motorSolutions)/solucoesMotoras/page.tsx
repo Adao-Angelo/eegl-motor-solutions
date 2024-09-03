@@ -17,8 +17,9 @@ export default function MotorSolutions() {
       </section>
 
       {/**__ Image of motor solutions ______________________________  */}
-      <section>
+      <section className="relative">
         <img className="w-[100%]" src="/motor-solutions.png" />
+        <img className="absolute top-0 right-0" src="/Image.png" />
       </section>
 
       {/**__ We take care of your engine __________________________________  */}
@@ -138,7 +139,7 @@ export default function MotorSolutions() {
       {/**__WHAT DO THEY SAY ABOUT US? ____________________  */}
 
       <section className="relative p-[100px] ">
-        <div className="bg-gray-300 p-[68px] mb-[100px] flex justify-between rounded-[20px] ">
+        <div className="bg-cg p-[68px] mb-[100px] ml-[40px] flex justify-between rounded-tl-[20px] rounded-bl-[20px] rounded-br-[20px]  ">
           <div></div>
           <div>
             <h1 className="text-[40px] leading-[64px] mb-5 font-bold text-ct">

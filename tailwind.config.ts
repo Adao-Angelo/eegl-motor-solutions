@@ -19,6 +19,7 @@ const config: Config = {
         ct: "#333333",
         cb: "#FFFFFF",
         "c-black": "#1E1E1E",
+        cg: "#D9D9D0",
       },
     },
   },
