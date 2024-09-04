@@ -52,7 +52,7 @@ export default function MotorSolutions() {
 
       {/**__ Our Services ____________________  */}
       <section className="px-[200px] py-[90px] text-c-background text-center">
-        <h1 className="text-[60px] font-bold text-c-stand">Nossos Serviços</h1>
+        <h1 className="text-[64px] font-bold text-c-stand">Nossos Serviços</h1>
         <div className="flex justify-between mt-[60px]">
           <p className="w-[220px] font-bold text-[14px] p-[15px] rounded-[8px] text-c-background bg-gradient-red">
             Assistência Técnica
@@ -71,12 +71,12 @@ export default function MotorSolutions() {
 
       {/**__ slide ____________________  */}
       <section className="flex gap-[15px] mb-24">
-        <div className="bg-member-office w-[30%] h-[600px]"></div>
-        <div className="bg-gradient-red-2 w-[70%] text-center p-[10px]">
+        <div className="bg-member-office w-[25%] h-[700px]"></div>
+        <div className="bg-gradient-red-2 w-[75%] text-center p-[10px]">
           <h1 className="text-[40px] leading-[64px] font-bold mb-5 text-c-background mt-20">
             Assistência Técnica
           </h1>
-          <p className="font-medium text-[16px] text-c-background w-[80%] m-auto mb-20">
+          <p className="font-medium text-[18px] text-c-background w-[80%] m-auto mb-20">
             Fornecemos uma gama abrangente de serviços de assistência técnica
             ligeira, pesada e industrial. Nossa equipe está preparada para lidar
             com todas as suas necessidades, desde manutenção preventiva,
@@ -84,38 +84,51 @@ export default function MotorSolutions() {
             eficiente e confiável dos seus equipamentos.
           </p>
 
-          <div className="flex w-[80%] m-auto">
-            <div
-              className="bg-white w-[300px] h-[150px] transform rotate-0"
-              style={{
-                clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
-              }}
-            >
-              {/* Conteúdo da sua div */}
+          <div className="flex w-[80%] m-auto text-c-background">
+            <div>
+              <div
+                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                style={{
+                  clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
+                }}
+              ></div>
+              <p className="font-bold text-left p-[20px] text-[18px]">
+                Inspeção de equipamentos
+              </p>
             </div>
-            <div
-              className="bg-white w-[300px] h-[150px] transform rotate-0"
-              style={{
-                clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
-              }}
-            >
-              {/* Conteúdo da sua div */}
+            <div>
+              <div
+                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                style={{
+                  clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
+                }}
+              ></div>
+              <p className="font-bold text-left p-[20px] text-[18px]">
+                Manutenção Preventiva
+              </p>
             </div>
-            <div
-              className="bg-white w-[300px] h-[150px] transform rotate-0"
-              style={{
-                clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
-              }}
-            >
-              {/* Conteúdo da sua div */}
+
+            <div>
+              <div
+                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                style={{
+                  clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
+                }}
+              ></div>
+              <p className="font-bold text-left p-[20px] text-[18px]">
+                Manutenção Corretiva.
+              </p>
             </div>
-            <div
-              className="bg-white w-[300px] h-[150px] transform rotate-0"
-              style={{
-                clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
-              }}
-            >
-              {/* Conteúdo da sua div */}
+            <div>
+              <div
+                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                style={{
+                  clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
+                }}
+              ></div>
+              <p className="font-bold text-left p-[20px] text-[18px]">
+                Reparação
+              </p>
             </div>
           </div>
         </div>
@@ -151,7 +164,7 @@ export default function MotorSolutions() {
       </section>
 
       {/**__ footer ____________________  */}
-      <footer className="bg-footerImage px-[180px] py-[200px] text-c-background flex justify-between">
+      <footer className="bg-footerImage bg-cover px-[180px] py-[200px] text-c-background flex justify-between">
         <h1 className="text-[50px] leading-[64px] font-bold mb-5">
           COMO PODEMOS AJUDAR?
         </h1>
@@ -181,11 +194,11 @@ export default function MotorSolutions() {
             />
           </div>
           <textarea
-            className="w-[100%] p-[16px] rounded-[10px] mb-[24px]"
+            className="w-[100%] p-[16px] rounded-[10px] min-h-[200px] mb-[24px]"
             placeholder="Como podemos ajudar?"
           ></textarea>
           <button
-            className="p-[16px] w-[100%] text-c-background font-bold text-[20px] rounded-[10px] bg-gradient-red"
+            className="p-[13px] w-[180px] text-c-background font-bold text-[20px] rounded-[10px] bg-gradient-red"
             type="submit"
           >
             ENVIAR
