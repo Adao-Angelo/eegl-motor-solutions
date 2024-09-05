@@ -12,6 +12,7 @@ const config: Config = {
         "gradient-red": "linear-gradient(to right, #C00000, #930000)",
         "gradient-red-2": "linear-gradient(to right, #BA0000, #730000)",
         "member-office": "url('/member-office.png')",
+        "background-project": "url('/background.png')",
         footerImage: "url('/footerImage.png')",
       },
       colors: {

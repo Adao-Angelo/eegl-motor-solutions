@@ -21,26 +21,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-pt">
-      <body className={montserrat.className}>
+      <body
+        className={`bg-background-project bg-cover ${montserrat.className}`}
+      >
         <Header></Header>
         {children}
         <footer>
           <div className="bg-c-gray-2 pt-24 pb-[30px] ">
             <div className="nav flex justify-between w-[701px] mx-auto">
               <Link href="/" className="text-c-background text-lg">
-                Home
+                HOME
               </Link>
               <Link href="/sobrenos" className="text-white text-lg">
-                Sobre nós
+                SOBRE NÓS
               </Link>
-              <Link href="/sobrenos" className="text-white text-lg">
-                Áreas de atuação
+              <Link href="/areasdeatuacao" className="text-white text-lg">
+                ÁREAS DE ATUAÇÃO
               </Link>
               <Link href="/portfólio" className="text-white text-lg">
-                Portfólio
+                PORTOFOLIO
               </Link>
               <Link href="/blog" className="text-white text-lg">
-                Blog
+                BLOG
               </Link>
             </div>
             <div className="text-center mt-[40px]">

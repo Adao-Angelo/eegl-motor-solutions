@@ -21,20 +21,20 @@ export default async function Header() {
           <img src="/logo.png" alt="Logo" className="w-[350px]" />
         </aside>
         <aside className="navBar flex gap-10">
-          <Link href="/About" className="text-black text-lg">
-            Sobre nós
+          <Link href="/sobrenos" className="text-black text-lg">
+            SOBRE NÓS
           </Link>
-          <Link href="/ourCompaniesPages" className="text-black text-lg">
-            Áreas de atuação
-          </Link>
-          <Link href="/" className="text-black text-lg">
-            Portfólio
+          <Link href="/areasdeatuacao" className="text-black text-lg">
+            ÁREAS DE ATUAÇÃO
           </Link>
           <Link href="/" className="text-black text-lg">
-            Blog
+            PORTOFOLIO
           </Link>
-          <Link href="/" className="text-red-600 font-bold text-lg">
-            Contactos
+          <Link href="/" className="text-black text-lg">
+            BLOG
+          </Link>
+          <Link href="/contactos" className="text-red-600 font-bold text-lg">
+            CONTACTOS
           </Link>
         </aside>
       </section>
