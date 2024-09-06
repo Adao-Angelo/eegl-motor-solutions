@@ -23,8 +23,8 @@ export default function SliderIllustrations() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
 
         <div className="absolute inset-0 flex items-center justify-start p-6">
-          <div className="bg-red-600/60 p-4 rounded-lg text-white">
-            <h2 className="text-4xl font-bold">
+          <div className="bg-red-600/60  w-[500px]  p-4 rounded-lg text-white">
+            <h2 className="text-4xl mb-[20px] font-bold">
               Um grupo movido pela excelência!
             </h2>
             <p>
