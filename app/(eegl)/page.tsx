@@ -1,5 +1,6 @@
 import SliderIllustrations from "@/components/Iillustrations";
 import ProjectSlider from "@/components/projects";
+import Image from "next/image";
 import Link from "next/link";
 
 export default async function Home() {
@@ -86,8 +87,7 @@ export default async function Home() {
           <div className="marquee flex space-x-8 animate-marquee">
             {images.map((src, index) => (
               <div>
-                <img
-                  key={index}
+                <Image
                   src={src}
                   alt={`image-${index}`}
                   className="w-[100%] h-auto"
