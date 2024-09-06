@@ -19,8 +19,7 @@ const projects = [
     image: "/work03.jpeg",
   },
 ];
-
-const ProjectSlider = () => {
+export default function ProjectSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -68,6 +67,4 @@ const ProjectSlider = () => {
       </button>
     </div>
   );
-};
-
-export default ProjectSlider;
+}

@@ -1,7 +1,8 @@
+import SliderIllustrations from "@/components/Iillustrations";
 import ProjectSlider from "@/components/projects";
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
   const images = [
     "/partners/belo.png",
     "/partners/carrinho.png",
@@ -16,6 +17,9 @@ export default function Home() {
   ];
   return (
     <main className="px-[140px] py-[50px] font-regular text-c-text mb-[250px]">
+      <div className="mb-[100px]">
+        <SliderIllustrations />
+      </div>
       <div className="text-center">
         <h1 className="bg-c-stand rounded-[29px] p-[17px] font-extrabold text-[30px] text-c-background">
           NOSSAS EMPRESAS
@@ -72,7 +76,7 @@ export default function Home() {
         <h1 className="text-c-stand text-[30px] mb-[50px] font-extrabold">
           TRABALHOS REALIZADOS
         </h1>
-        <ProjectSlider></ProjectSlider>
+        <ProjectSlider />
       </div>
       <div className="text-center">
         <h1 className="bg-c-stand rounded-[29px] p-[17px] font-extrabold text-[30px] text-c-background">
