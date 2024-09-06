@@ -31,6 +31,7 @@ const config: Config = {
         "c-black": "#1E1E1E",
         "c-gray-0": "#D9D9D0",
         "c-gray-2": "#333333",
+        "c-dark-red": "#5E0000",
       },
     },
   },
