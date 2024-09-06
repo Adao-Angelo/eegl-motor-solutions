@@ -52,15 +52,17 @@ export default function RootLayout({
               </p>
             </div>
           </div>
-          <aside className="contacts bg-c-stand rounded-lg p-[37px] flex items-center gap-3 max-w-[889px] mx-auto -mt-[280px] text-white">
-            <p className="text-2xl">Como podemos ajudar?</p>
-            <button className="flex items-center gap-3 bg-white text-gray-800 rounded-lg p-3 cursor-pointer">
-              <Phone />
-              <p className="text-sm font-bold">Ligue já</p>
-            </button>
-            <p className="text-base font-bold">
-              (+244) 929 029 456 / 929 029 342
-            </p>
+          <aside className="bg-c-stand rounded-lg p-[37px]  max-w-[889px] mx-auto -mt-[280px] text-white">
+            <div className="flex items-center gap-3 m-auto justify-center max-w-[900px]">
+              <p className="text-2xl">Como podemos ajudar?</p>
+              <button className="flex items-center gap-3 bg-white text-gray-800 rounded-lg p-3 cursor-pointer">
+                <Phone />
+                <p className="text-sm font-bold">Ligue já</p>
+              </button>
+              <p className="text-base font-bold">
+                (+244) 929 029 456 / 929 029 342
+              </p>
+            </div>
           </aside>
         </footer>
       </body>
