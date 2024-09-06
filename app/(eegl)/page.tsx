@@ -74,7 +74,7 @@ export default async function Home() {
       </div>
       <div className="text-center my-[100px]">
         <h1 className="text-c-stand text-[30px] mb-[50px] font-extrabold">
-          TRABALHOS REALIZADOS
+          TRABALHOS REALIZADOS.
         </h1>
         <ProjectSlider />
       </div>
