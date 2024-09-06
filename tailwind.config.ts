@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-170%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 20s linear infinite",
+      },
       backgroundImage: {
         "gradient-red": "linear-gradient(to right, #C00000, #930000)",
         "gradient-red-2": "linear-gradient(to right, #BA0000, #730000)",

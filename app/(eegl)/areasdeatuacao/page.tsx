@@ -8,15 +8,27 @@ export default async function AreasOfActivity() {
       </h1>
       <div className="flex gap-[50px] mx-auto my-[50px] w-[500px]">
         <Link href="/">
-          <img src="/eegl.png" alt="eegl company" />
+          <img
+            className="w-full transition-all duration-500 hover:scale-110"
+            src="/eegl.png"
+            alt="eegl company"
+          />
         </Link>
 
         <Link href="/">
-          <img src="/agro.png" alt="eegl company" />
+          <img
+            className="w-full transition-all duration-500 hover:scale-110"
+            src="/agro.png"
+            alt="eegl company"
+          />
         </Link>
 
         <Link href="/solucoesMotoras">
-          <img src="/motorSolutions.png" alt="eegl company" />
+          <img
+            className="w-full transition-all duration-500 hover:scale-110"
+            src="/motorSolutions.png"
+            alt="eegl company"
+          />
         </Link>
       </div>
       <p className="mb-[205px] text-[18px]">
