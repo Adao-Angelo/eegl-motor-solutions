@@ -1,7 +1,16 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import { Mail, Phone } from "lucide-react";
 
-export default async function Header() {
+export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header>
       <section className="bg-c-stand p-5">
@@ -21,9 +30,34 @@ export default async function Header() {
           <img src="/logo.png" alt="Logo" className="w-[350px]" />
         </aside>
         <aside className="navBar flex gap-10">
-          <Link href="/sobrenos" className="text-black text-lg">
-            SOBRE NÓS
-          </Link>
+          <div className="relative">
+            <Link
+              href="#"
+              onClick={toggleMenu}
+              className={`px-4 py-2 text-lg ${
+                isOpen ? "font-bold text-c-stand" : "text-c-black"
+              }`}
+            >
+              SOBRE NÓS
+            </Link>
+
+            {isOpen && (
+              <div className="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-50">
+                <Link
+                  href="/sobrenos"
+                  className="block px-4 py-2 text-c-text text-[14px] hover:bg-gray-200"
+                >
+                  QUEM SOMOS
+                </Link>
+                <Link
+                  href="/nossaEquipa"
+                  className="block px-4 py-2 text-c-text text-[14px] hover:bg-gray-200"
+                >
+                  NOSSA EQUIPA
+                </Link>
+              </div>
+            )}
+          </div>
           <Link href="/areasdeatuacao" className="text-black text-lg">
             ÁREAS DE ATUAÇÃO
           </Link>
