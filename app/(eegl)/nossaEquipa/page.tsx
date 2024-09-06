@@ -11,7 +11,10 @@ export default async function OurEquip() {
         </div>
         <div className="flex gap-[66px]">
           <div className="text-center w-[183px]">
-            <img className="rounded-[50%] w-[100%] h-[183px]" src="/1.jpeg" />
+            <img
+              className="rounded-[50%] w-[100%] h-[183px]"
+              src="/work01.jpeg"
+            />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
             </p>

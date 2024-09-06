@@ -4,6 +4,13 @@ export default function MotorSolutions() {
       {/**__ Image of motor solutions ______________________________  */}
       <section className="relative">
         <img className="w-[100%]" src="/motor-solutions.png" />
+        <div className="absolute rounded-[47px] h-[400px] p-[59px] w-[700px] top-[30%] left-[10%] inset-0 bg-gradient-to-r from-white/10 to-transparent">
+          <h1 className="font-black italic text-c-background w-[580px] text-[46px]">
+            Máxima eficiência & desempenho
+          </h1>
+          <div className="w-[150px] mt-[70px] rounded-[15px] p-5 bg-c-background"></div>
+        </div>
+
         <img className="absolute top-0 right-0" src="/Image.png" />
       </section>
 
@@ -87,7 +94,7 @@ export default function MotorSolutions() {
           <div className="flex w-[80%] m-auto text-c-background">
             <div>
               <div
-                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                className="bg-[url('/motor01.JPG')] bg-cover bg-center text- w-[250px] h-[180px] transform rotate-0"
                 style={{
                   clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
                 }}
@@ -98,7 +105,7 @@ export default function MotorSolutions() {
             </div>
             <div>
               <div
-                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                className="bg-[url('/motor02.JPG')] bg-cover bg-center text- w-[250px] h-[180px] transform rotate-0"
                 style={{
                   clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
                 }}
@@ -110,7 +117,7 @@ export default function MotorSolutions() {
 
             <div>
               <div
-                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                className="bg-[url('/motor03.JPG')] bg-cover bg-center text- w-[250px] h-[180px] transform rotate-0"
                 style={{
                   clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
                 }}
@@ -121,7 +128,7 @@ export default function MotorSolutions() {
             </div>
             <div>
               <div
-                className="bg-white text- w-[250px] h-[180px] transform rotate-0"
+                className="bg-[url('/motor04.JPG')] bg-cover bg-center text- w-[250px] h-[180px] transform rotate-0"
                 style={{
                   clipPath: "polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)",
                 }}
