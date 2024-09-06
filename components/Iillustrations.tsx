@@ -10,24 +10,21 @@ export default function SliderIllustrations() {
     "/slider/Illustrations04.jpg",
   ];
 
-  // Função para alterar o slide
   const handleSlideChange = (index: number) => {
     setActiveSlide(index);
   };
 
-  // Função que faz a apresentação automática dos slides
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveSlide((prevSlide) => (prevSlide + 1) % images.length);
-    }, 5000); // Troca a cada 3 segundos
+    }, 5000);
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
   }, [images.length]);
 
   return (
     <div className="relative w-full h-full flex items-center justify-center">
-      {/* Área do slide principal */}
       <div
-        className="relative rounded w-[70%] h-[400px] bg-cover bg-center transition-all duration-500 ease-in-out"
+        className="relative rounded w-[70%] h-[400px] bg-cover bg-inherit transition-all duration-500 ease-in-out"
         style={{ backgroundImage: `url(${images[activeSlide]})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
@@ -45,7 +42,6 @@ export default function SliderIllustrations() {
         </div>
       </div>
 
-      {/* Miniaturas dos slides */}
       <div className="ml-4 flex flex-col space-y-4">
         {images.map((image, index) => (
           <div
