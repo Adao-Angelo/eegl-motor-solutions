@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function SliderIllustrations() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -7,17 +7,27 @@ export default function SliderIllustrations() {
     "/slider/Illustrations01.jpg",
     "/slider/Illustrations02.jpg",
     "/slider/Illustrations03.jpg",
-    "/slider/Illustrations004.jpg",
+    "/slider/Illustrations04.jpg",
   ];
 
+  // Função para alterar o slide
   const handleSlideChange = (index: number) => {
     setActiveSlide(index);
   };
 
+  // Função que faz a apresentação automática dos slides
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveSlide((prevSlide) => (prevSlide + 1) % images.length);
+    }, 5000); // Troca a cada 3 segundos
+    return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+  }, [images.length]);
+
   return (
     <div className="relative w-full h-full flex items-center justify-center">
+      {/* Área do slide principal */}
       <div
-        className="relative w-[70%] h-[400px] bg-cover bg-center transition-all duration-500 ease-in-out"
+        className="relative rounded w-[70%] h-[400px] bg-cover bg-center transition-all duration-500 ease-in-out"
         style={{ backgroundImage: `url(${images[activeSlide]})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent" />
@@ -35,6 +45,7 @@ export default function SliderIllustrations() {
         </div>
       </div>
 
+      {/* Miniaturas dos slides */}
       <div className="ml-4 flex flex-col space-y-4">
         {images.map((image, index) => (
           <div
@@ -44,6 +55,7 @@ export default function SliderIllustrations() {
             }`}
             style={{
               backgroundImage: `url(${image})`,
+              borderRadius: "5px",
               filter:
                 activeSlide === index ? "brightness(1)" : "brightness(0.5)",
             }}
