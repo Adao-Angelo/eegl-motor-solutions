@@ -45,7 +45,7 @@ export default function SliderIllustrations() {
       <div className="ml-4 flex flex-col space-y-4">
         {images.map((image, index) => (
           <div
-            key={index}
+            key={`${index}-${image}`}
             className={`relative w-[150px] h-[80px] bg-cover bg-center transition-all duration-500 ease-in-out cursor-pointer ${
               activeSlide === index ? "w-[300px] h-[160px]" : ""
             }`}

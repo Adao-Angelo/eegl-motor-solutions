@@ -44,7 +44,7 @@ export default function SliderOurServices() {
       <div className="flex justify-center space-x-4 mt-[60px] mb-[89px]">
         {services.map((service) => (
           <button
-            key={service.id}
+            key={`${service.id}-${service.title}`}
             onClick={() => setActiveService(service.id)}
             className={`p-[18px] font-bold rounded-[8px] ${
               activeService === service.id
