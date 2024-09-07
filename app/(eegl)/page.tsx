@@ -86,9 +86,8 @@ export default async function Home() {
         <div className="overflow-hidden whitespace-nowrap mt-[100px]">
           <div className="marquee flex space-x-8 animate-marquee">
             {images.map((src, index) => (
-              <div>
+              <div key={`${index}-${src}`}>
                 <Image
-                  key={`${index}-${src}`}
                   src={src}
                   alt={`image-${index}`}
                   className="w-[100%] h-auto"
