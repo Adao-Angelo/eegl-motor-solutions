@@ -44,7 +44,7 @@ export default function PecasAcessorios() {
           </div>
         </div>
       </div>
-      <Image src="/accessories.png" alt="Imagem" />
+      <img src="/accessories.png" alt="Imagem" />
     </div>
   );
 }

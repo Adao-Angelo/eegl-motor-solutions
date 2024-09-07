@@ -27,7 +27,7 @@ export default async function Home() {
         </h1>
         <div className="flex gap-[50px] mx-auto my-[50px] w-[500px]">
           <Link href="/">
-            <Image
+            <img
               className="w-full transition-all duration-500 hover:scale-110"
               src="/eegl.png"
               alt="eegl company"
@@ -35,7 +35,7 @@ export default async function Home() {
           </Link>
 
           <Link href="/">
-            <Image
+            <img
               className="w-full transition-all duration-500 hover:scale-110"
               src="/agro.png"
               alt="eegl company"
@@ -43,7 +43,7 @@ export default async function Home() {
           </Link>
 
           <Link href="/solucoesMotoras">
-            <Image
+            <img
               className="w-full transition-all duration-500 hover:scale-110"
               src="/motorSolutions.png"
               alt="eegl company"
@@ -53,7 +53,7 @@ export default async function Home() {
       </div>
       <div className="flex items-center my-[80px] justify-between">
         <div>
-          <Image src="/persons.png" alt="/eelg equipe" />
+          <img src="/persons.png" alt="/eelg equipe" />
         </div>
         <div className="w-[50%]">
           <h1 className="font-extrabold text-[30px]">
@@ -87,7 +87,7 @@ export default async function Home() {
           <div className="marquee flex space-x-8 animate-marquee">
             {images.map((src, index) => (
               <div key={`${index}-${src}`}>
-                <Image
+                <img
                   src={src}
                   alt={`image-${index}`}
                   className="w-[100%] h-auto"

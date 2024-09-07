@@ -28,7 +28,7 @@ export default function Header() {
       </section>
       <section className="header-container flex justify-between items-center px-[107px] py-6 mb-4">
         <aside className="logo">
-          <Image src="/logo.png" alt="Logo" className="w-[350px]" />
+          <img src="/logo.png" alt="Logo" className="w-[350px]" />
         </aside>
         <aside className="navBar flex gap-10">
           <div className="relative">

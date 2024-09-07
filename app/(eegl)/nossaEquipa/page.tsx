@@ -13,7 +13,7 @@ export default async function OurEquip() {
         </div>
         <div className="flex gap-[66px]">
           <div className="text-center w-[183px]">
-            <Image
+            <img
               className="rounded-[50%] w-[100%] h-[183px]"
               src="/work01.jpeg"
               alt="/work"
@@ -24,7 +24,7 @@ export default async function OurEquip() {
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <Image
+            <img
               alt="image"
               className="rounded-[50%] w-[100%] h-[183px]"
               src="/1.jpeg"
@@ -44,7 +44,7 @@ export default async function OurEquip() {
         </div>
         <div className="flex gap-[66px]">
           <div className="text-center w-[183px]">
-            <Image
+            <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
               src="/1.jpeg"
@@ -55,7 +55,7 @@ export default async function OurEquip() {
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <Image
+            <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
               src="/1.jpeg"
@@ -66,7 +66,7 @@ export default async function OurEquip() {
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <Image
+            <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
               src="/1.jpeg"
@@ -77,7 +77,7 @@ export default async function OurEquip() {
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <Image
+            <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
               src="/1.jpeg"
