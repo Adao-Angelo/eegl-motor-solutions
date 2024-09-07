@@ -1,6 +1,5 @@
 import SliderIllustrations from "@/components/Iillustrations";
 import ProjectSlider from "@/components/projects";
-import Image from "next/image";
 import Link from "next/link";
 
 export default async function Home() {
@@ -79,14 +78,14 @@ export default async function Home() {
         </h1>
         <ProjectSlider />
       </div>
-      <div className="text-center">
+      <section className="text-center">
         <h1 className="bg-c-stand rounded-[29px] p-[17px] font-extrabold text-[30px] text-c-background">
           NOSSOS PARCEIROS
         </h1>
-        <div className="overflow-hidden whitespace-nowrap mt-[100px]">
-          <div className="marquee flex space-x-8 animate-marquee">
+        <div className="overflow-x-hidden whitespace-nowrap mt-[100px]">
+          <div className="marquee flex gap-[20px] animate-marquee">
             {images.map((src, index) => (
-              <div key={`${index}-${src}`}>
+              <div className="min-w-[300px]" key={`${index}-${src}`}>
                 <img
                   src={src}
                   alt={`image-${index}`}
@@ -96,7 +95,7 @@ export default async function Home() {
             ))}
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 }

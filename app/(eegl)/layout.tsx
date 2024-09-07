@@ -21,9 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-pt">
-      <body
-        className={`bg-background-project bg-cover ${montserrat.className}`}
-      >
+      <body className={`bg-background-project ${montserrat.className}`}>
         <Header></Header>
         {children}
         <footer>
