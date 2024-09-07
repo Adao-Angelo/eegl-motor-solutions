@@ -53,14 +53,13 @@ export default function AboutUs() {
           <h1 className="font-extrabold text-[30px]  text-c-text ">
             <span className="text-c-stand">SOBRE</span> A EEGL GROUP
           </h1>
-          <div className="mb-[25px] text-[18px]">
-            <p className="font-medium mb-[28px]">
-              Desde
-              <span className="text-c-stand">2015</span> no mercado, somos uma
-              marca angolana comprometida em oferecer soluções personalizadas e
-              garantir a satisfação do cliente. Nossa equipe qualificada está
-              pronta para atender às necessidades do mercado e superar
-              expectativas.
+          <div className="mb-[25px] font-medium  text-[18px]">
+            <p className="mb-[28px]">
+              Desde <span className="text-c-stand"> 2015 </span> no mercado,
+              somos uma marca angolana comprometida em oferecer soluções
+              personalizadas e garantir a satisfação do cliente. Nossa equipe
+              qualificada está pronta para atender às necessidades do mercado e
+              superar expectativas.
             </p>
             <p>
               Nosso compromisso é com a excelência, inovação e a construção de
