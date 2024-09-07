@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ export default function Header() {
       </section>
       <section className="header-container flex justify-between items-center px-[107px] py-6 mb-4">
         <aside className="logo">
-          <img src="/logo.png" alt="Logo" className="w-[350px]" />
+          <Image src="/logo.png" alt="Logo" className="w-[350px]" />
         </aside>
         <aside className="navBar flex gap-10">
           <div className="relative">
