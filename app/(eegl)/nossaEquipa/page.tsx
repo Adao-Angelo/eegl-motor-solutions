@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default async function OurEquip() {
   return (
     <main className="px-[140px] py-[50px] font-regular text-c-text mb-[250px]">
@@ -11,9 +13,10 @@ export default async function OurEquip() {
         </div>
         <div className="flex gap-[66px]">
           <div className="text-center w-[183px]">
-            <img
+            <Image
               className="rounded-[50%] w-[100%] h-[183px]"
               src="/work01.jpeg"
+              alt="/work"
             />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
@@ -21,7 +24,11 @@ export default async function OurEquip() {
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <img className="rounded-[50%] w-[100%] h-[183px]" src="/1.jpeg" />
+            <Image
+              alt="image"
+              className="rounded-[50%] w-[100%] h-[183px]"
+              src="/1.jpeg"
+            />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
             </p>
@@ -37,28 +44,44 @@ export default async function OurEquip() {
         </div>
         <div className="flex gap-[66px]">
           <div className="text-center w-[183px]">
-            <img className="rounded-[50%] w-[100%] h-[183px]" src="/1.jpeg" />
+            <Image
+              alt="member"
+              className="rounded-[50%] w-[100%] h-[183px]"
+              src="/1.jpeg"
+            />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
             </p>
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <img className="rounded-[50%] w-[100%] h-[183px]" src="/1.jpeg" />
+            <Image
+              alt="member"
+              className="rounded-[50%] w-[100%] h-[183px]"
+              src="/1.jpeg"
+            />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
             </p>
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <img className="rounded-[50%] w-[100%] h-[183px]" src="/1.jpeg" />
+            <Image
+              alt="member"
+              className="rounded-[50%] w-[100%] h-[183px]"
+              src="/1.jpeg"
+            />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
             </p>
             <p className="text-[14px]">Director Gera</p>
           </div>
           <div className="text-center w-[183px]">
-            <img className="rounded-[50%] w-[100%] h-[183px]" src="/1.jpeg" />
+            <Image
+              alt="member"
+              className="rounded-[50%] w-[100%] h-[183px]"
+              src="/1.jpeg"
+            />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
             </p>

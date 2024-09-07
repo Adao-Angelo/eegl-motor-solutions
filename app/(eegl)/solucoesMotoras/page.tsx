@@ -1,11 +1,12 @@
 import SliderOurServices from "@/components/SliderOurServices";
+import Image from "next/image";
 
 export default function MotorSolutions() {
   return (
     <main className="bg-c-background">
       {/**__ Image of motor solutions ______________________________  */}
       <section className="relative mim-h-[400px]">
-        <img className="w-[100%]" src="/motor-solutions.png" />
+        <Image alt="motor" className="w-[100%]" src="/motor-solutions.png" />
         <div className="absolute rounded-[47px] h-[400px] p-[59px] w-[700px] top-[30%] left-[10%] inset-0 bg-gradient-to-r from-white/10 to-transparent">
           <h1 className="font-black italic text-c-background w-[580px] text-[46px]">
             Máxima eficiência & desempenho
@@ -13,7 +14,11 @@ export default function MotorSolutions() {
           <div className="w-[150px] mt-[70px] rounded-[15px] p-5 bg-c-background"></div>
         </div>
 
-        <img className="absolute top-0 right-0" src="/Image.png" />
+        <Image
+          alt="solution"
+          className="absolute top-0 right-0"
+          src="/Image.png"
+        />
       </section>
 
       {/**__ We take care of your engine __________________________________  */}
@@ -39,7 +44,7 @@ export default function MotorSolutions() {
           </div>
         </aside>
         <aside className="w-[600px]">
-          <img className="w-[100%]" src="/motors.png" />
+          <Image alt="motors" className="w-[100%]" src="/motors.png" />
         </aside>
       </section>
 
@@ -73,7 +78,8 @@ export default function MotorSolutions() {
               O QUE DIZEM SOBRE NÓS?
             </h1>
             <div className="flex gap-6 w-[700px] rounded-tl-[75px] rounded-bl-[75px] bg-zinc-950 text-c-background items-center p-[10px]">
-              <img
+              <Image
+                alt="motor solutions"
                 className="w-[124px] h-[124px] rounded-[50%]"
                 src="/motor-solutions.png"
               />
@@ -90,7 +96,11 @@ export default function MotorSolutions() {
             </div>
           </div>
         </div>
-        <img className="absolute bottom-0 left-0" src="/member.png" />
+        <Image
+          alt="member"
+          className="absolute bottom-0 left-0"
+          src="/member.png"
+        />
       </section>
 
       {/**__ footer ____________________  */}

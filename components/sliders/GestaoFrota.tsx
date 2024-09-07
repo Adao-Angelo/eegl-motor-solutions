@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export default function GestaoFrota() {
   return (
     <div className="flex  text-left text-c-background  bg-blue-800">
-      <img className="w-[100%]" src="/frota.png" alt="" />
+      <Image className="w-[100%]" src="/frota.png" alt="frota" />
       <div className="">
         <div className="bg-gradient-red-2 min-h-[60%] p-[56px]">
           <h2 className="text-[62px] max-w-[620px] font-bold">

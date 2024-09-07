@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default async function AreasOfActivity() {
@@ -8,7 +9,7 @@ export default async function AreasOfActivity() {
       </h1>
       <div className="flex gap-[50px] mx-auto my-[50px] w-[500px]">
         <Link href="/">
-          <img
+          <Image
             className="w-full transition-all duration-500 hover:scale-110"
             src="/eegl.png"
             alt="eegl company"
@@ -16,7 +17,7 @@ export default async function AreasOfActivity() {
         </Link>
 
         <Link href="/">
-          <img
+          <Image
             className="w-full transition-all duration-500 hover:scale-110"
             src="/agro.png"
             alt="eegl company"
@@ -24,7 +25,7 @@ export default async function AreasOfActivity() {
         </Link>
 
         <Link href="/solucoesMotoras">
-          <img
+          <Image
             className="w-full transition-all duration-500 hover:scale-110"
             src="/motorSolutions.png"
             alt="eegl company"

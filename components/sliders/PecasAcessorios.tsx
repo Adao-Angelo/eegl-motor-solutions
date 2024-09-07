@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function PecasAcessorios() {
   return (
     <div className="text-white text-left flex bg-green-800">
@@ -42,7 +44,7 @@ export default function PecasAcessorios() {
           </div>
         </div>
       </div>
-      <img src="/accessories.png" alt="Imagem" />
+      <Image src="/accessories.png" alt="Imagem" />
     </div>
   );
 }
