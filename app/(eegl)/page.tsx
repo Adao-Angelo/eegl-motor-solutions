@@ -88,6 +88,7 @@ export default async function Home() {
             {images.map((src, index) => (
               <div>
                 <Image
+                  key={`${index}-${src}`}
                   src={src}
                   alt={`image-${index}`}
                   className="w-[100%] h-auto"
