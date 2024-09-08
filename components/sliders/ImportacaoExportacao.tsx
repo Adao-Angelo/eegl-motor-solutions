@@ -1,11 +1,27 @@
 export default function ImportacaoExportacao() {
   return (
-    <div className="text-white p-6 bg-red-800">
-      <h2 className="text-3xl font-bold mb-4">Importação e Exportação</h2>
-      <p>
-        Suporte completo para processos de importação e exportação, facilitando
-        o comércio global.
-      </p>
+    <div
+      style={{ backgroundImage: `url(/container-harbor.png)` }}
+      className="h-[800px] bg-cover pt-[100px] pl-[400px]"
+    >
+      <div className="bg-gradient-red-2  w-[600px] text-left m-auto p-[64px] text-c-background">
+        <div>
+          <h1 className="text-[62px] max-w-[620px] font-bold">
+            Importação e exportação
+          </h1>
+          <p className="text-[18px] font-bold">
+            Oferecemos soluções completas e eficientes para a importação e
+            exportação de mercadorias, facilitando o comércio internacional para
+            empresas de diversos setores.
+          </p>
+
+          <p className="text-[18px]  my-[15px] font-bold">
+            Garantimos que seus produtos cruzem fronteiras de maneira segura e
+            sem complicações.
+          </p>
+        </div>
+        <div>bolinha</div>
+      </div>
     </div>
   );
 }
