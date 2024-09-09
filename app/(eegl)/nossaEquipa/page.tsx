@@ -15,13 +15,13 @@ export default async function OurEquip() {
           <div className="text-center w-[183px]">
             <img
               className="rounded-[50%] w-[100%] h-[183px]"
-              src="/work01.jpeg"
+              src="/members/gouveia.jpg"
               alt="/work"
             />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
             </p>
-            <p className="text-[14px]">Director Gera</p>
+            <p className="text-[14px]">Director Geral</p>
           </div>
           <div className="text-center w-[183px]">
             <img
@@ -30,9 +30,9 @@ export default async function OurEquip() {
               src="/1.jpeg"
             />
             <p className="text-[22px] mt-[20px]">
-              Gouveia <span className="font-bold">Leite</span>
+              Paulo <span className="font-bold">Januário</span>
             </p>
-            <p className="text-[14px]">Director Gera</p>
+            <p className="text-[14px]">Director Administrativo</p>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default async function OurEquip() {
               src="/1.jpeg"
             />
             <p className="text-[22px] mt-[20px]">
-              Gouveia <span className="font-bold">Leite</span>
+              Abreu <span className="font-bold"> Dos anjos</span>
             </p>
             <p className="text-[14px]">Director Gera</p>
           </div>
@@ -69,12 +69,12 @@ export default async function OurEquip() {
             <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
-              src="/1.jpeg"
+              src="/members/edson.jpg"
             />
             <p className="text-[22px] mt-[20px]">
-              Gouveia <span className="font-bold">Leite</span>
+              Edson <span className="font-bold">Guerra</span>
             </p>
-            <p className="text-[14px]">Director Gera</p>
+            <p className="text-[14px]">Tecnico junior</p>
           </div>
           <div className="text-center w-[183px]">
             <img

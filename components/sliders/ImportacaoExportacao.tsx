@@ -4,7 +4,7 @@ export default function ImportacaoExportacao() {
       style={{ backgroundImage: `url(/container-harbor.png)` }}
       className="h-[800px] bg-cover pt-[100px] pl-[400px]"
     >
-      <div className="bg-gradient-red-2  w-[600px] text-left m-auto p-[64px] text-c-background">
+      <div className=" relative bg-gradient-red-2  w-[600px] text-left m-auto p-[64px] text-c-background">
         <div>
           <h1 className="text-[62px] max-w-[620px] font-bold">
             Importação e exportação
@@ -20,7 +20,7 @@ export default function ImportacaoExportacao() {
             sem complicações.
           </p>
         </div>
-        <div>bolinha</div>
+        <div className="absolute bottom-[-60px] left-[-60px]  bg-c-stand w-[140px] h-[140px] rounded-[50%]  border-c-background border-[30px]"></div>
       </div>
     </div>
   );
