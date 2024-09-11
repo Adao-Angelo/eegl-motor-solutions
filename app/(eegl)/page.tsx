@@ -33,7 +33,7 @@ export default async function Home() {
             />
           </Link>
 
-          <Link href="/">
+          <Link href="/agro">
             <img
               className="w-full transition-all duration-500 hover:scale-110"
               src="/agro.png"

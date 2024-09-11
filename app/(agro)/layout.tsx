@@ -3,13 +3,12 @@ import { Montserrat } from "next/font/google";
 import "../globals.css";
 import { Mail, Phone } from "lucide-react";
 import Link from "next/link";
-import Header from "./agro-Header";
+import Header from "./ui/agro-Header";
 
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
-
 
 export const metadata: Metadata = {
   title: "AGRICULTURE",
