@@ -44,7 +44,9 @@ export default function PecasAcessorios() {
           </div>
         </div>
       </div>
-      <img src="/accessories.png" alt="Imagem" />
+      <div className="bg-violet-700">
+        <img src="/accessories.png" />
+      </div>
     </div>
   );
 }

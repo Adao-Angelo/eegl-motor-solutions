@@ -1,11 +1,10 @@
 import SliderOurServices from "@/components/SliderOurServices";
-import Image from "next/image";
 
 export default function MotorSolutions() {
   return (
     <main className="bg-c-background">
       {/**__ Image of motor solutions ______________________________  */}
-      <section className="relative mim-h-[400px]">
+      <section className="relative min-h-[700px] bg-c-gray-0">
         <img alt="motor" className="w-[100%]" src="/motor-solutions.png" />
         <div className="absolute rounded-[47px] h-[400px] p-[59px] w-[700px] top-[30%] left-[10%] inset-0 bg-gradient-to-r from-white/10 to-transparent">
           <h1 className="font-black italic text-c-background w-[580px] text-[46px]">
@@ -13,11 +12,10 @@ export default function MotorSolutions() {
           </h1>
           <div className="w-[150px] mt-[70px] rounded-[15px] p-5 bg-c-background"></div>
         </div>
-
         <img
           alt="solution"
           className="absolute top-0 right-0"
-          src="/Image.png"
+          src="/vetor.png"
         />
       </section>
 
