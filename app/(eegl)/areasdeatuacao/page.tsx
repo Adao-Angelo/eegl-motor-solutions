@@ -8,7 +8,7 @@ export default async function AreasOfActivity() {
         NOSSAS EMPRESAS
       </h1>
       <div className="flex gap-[50px] mx-auto my-[50px] w-[500px]">
-        <Link href="/">
+        <Link href="/comercioEServicos">
           <img
             className="w-full transition-all duration-500 hover:scale-110"
             src="/eegl.png"
