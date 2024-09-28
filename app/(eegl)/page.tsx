@@ -16,18 +16,36 @@ export default async function Home() {
     "/partners/alcaal_angola.png",
   ];
   return (
-    <main className="px-[140px] py-[50px] font-regular text-c-text mb-[250px]">
-      <div className="mb-[100px]">
+    <main className="px-[15px] md:px-[140px] py-[10px] md:py-[50px] font-regular text-c-text mb-[250px]">
+      <div className="mb-[100px] hidden md:block">
         <SliderIllustrations />
       </div>
+      <div className="relative md:hidden">
+        <img
+          className="rounded mb-8"
+          src="/slider/Illustrations02.jpg"
+          alt="engconsult"
+        />
+        <div className="absolute inset-0 flex items-center  justify-start p-6">
+          <div className="bg-red-600/60  w-[500px]  p-4 rounded-lg text-white">
+            <h2 className="text-2xl mb-[15px] font-bold">
+              Um grupo movido pela excelência!
+            </h2>
+            <p>
+              Comprometidos em oferecer soluções personalizadas e garantir a
+              satisfação do cliente.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="text-center">
-        <h1 className="bg-c-stand rounded-[29px] p-[17px] font-extrabold text-[30px] text-c-background">
+        <h1 className="bg-c-stand rounded-[29px] p-[10px] md:p-[17px] font-extrabold md:text-[30px] text-c-background">
           NOSSAS EMPRESAS
         </h1>
-        <div className="flex gap-[50px] mx-auto my-[50px] w-[500px]">
+        <div className="flex  md:gap-[50px] items-center mx-auto my-[50px] md:w-[500px]">
           <Link href="/">
             <img
-              className="w-full transition-all duration-500 hover:scale-110"
+              className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
               src="/eegl.png"
               alt="eegl company"
             />
@@ -35,7 +53,7 @@ export default async function Home() {
 
           <Link href="/agro">
             <img
-              className="w-full transition-all duration-500 hover:scale-110"
+              className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
               src="/agro.png"
               alt="eegl company"
             />
@@ -43,20 +61,20 @@ export default async function Home() {
 
           <Link href="/solucoesMotoras">
             <img
-              className="w-full transition-all duration-500 hover:scale-110"
+              className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
               src="/motorSolutions.png"
               alt="eegl company"
             />
           </Link>
         </div>
       </div>
-      <div className="flex items-center my-[80px] justify-between">
+      <div className="md:flex items-center my-[80px] justify-between ">
         <div>
           <img src="/persons.png" alt="/eelg equipe" />
         </div>
-        <div className="w-[50%]">
-          <h1 className="font-extrabold text-[30px]">
-            <span className="text-c-stand">SOBRE</span> A EEGL GROUP
+        <div className="md:w-[50%]">
+          <h1 className="font-extrabold md:text-[30px] text-[25px]">
+            <span className="text-c-stand ">SOBRE</span> A EEGL GROUP
           </h1>
           <p className="my-[31px]">
             A <span className="font-bold">EEGL GROUP </span> é uma marca
@@ -79,7 +97,7 @@ export default async function Home() {
         <ProjectSlider />
       </div>
       <section className="text-center">
-        <h1 className="bg-c-stand rounded-[29px] p-[17px] font-extrabold text-[30px] text-c-background">
+        <h1 className="bg-c-stand rounded-[29px] p-[10px] md:p-[17px] font-extrabold md:text-[30px] text-c-background">
           NOSSOS PARCEIROS
         </h1>
         <div className="overflow-x-hidden whitespace-nowrap mt-[100px]">
