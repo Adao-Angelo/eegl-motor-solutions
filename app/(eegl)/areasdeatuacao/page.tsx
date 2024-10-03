@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default async function AreasOfActivity() {
+export default function AreasOfActivity() {
   return (
     <main className="px-[15px] md:px-[140px] py-[10px] md:py-[50px] font-regular mb-[250px] text-center text-c-text">
       <div className="text-center">

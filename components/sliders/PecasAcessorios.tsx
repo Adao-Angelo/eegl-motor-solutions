@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 export default function PecasAcessorios() {
   return (
-    <div className="text-white text-left flex bg-green-800">
+    <div className="text-white text-left flex">
       <div>
         <div className="bg-gradient-red-2 min-h-[60%] p-[56px]">
           <h1 className="text-[62px] max-w-[620px] font-bold">
@@ -44,9 +42,7 @@ export default function PecasAcessorios() {
           </div>
         </div>
       </div>
-      <div className="bg-violet-700">
-        <img src="/accessories.png" />
-      </div>
+      <img className="object-cover h-full " src="/accessories.png" />
     </div>
   );
 }

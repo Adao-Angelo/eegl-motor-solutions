@@ -7,9 +7,10 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  viewport: "width=device-width, initial-scale=1.0",
-};
+export const generateViewport = () => ({
+  width: "device-width",
+  initialScale: 1,
+});
 
 export default function RootLayout({
   children,
@@ -18,7 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-pt">
-      <body className={montserrat.className}>{children}</body>
+      <body
+        style={{
+          backgroundImage: "url(/background.png)",
+        }}
+        className={montserrat.className}
+      >
+        {children}
+      </body>
     </html>
   );
 }
