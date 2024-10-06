@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
+
 import "./globals.css";
-import { Metadata } from "next";
+import MobileWarning from "@/components/ui/MobileWarning";
 
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -11,6 +12,11 @@ export const generateViewport = () => ({
   width: "device-width",
   initialScale: 1,
 });
+export const metadata = {
+  icons: {
+    icon: "/eeg.png",
+  },
+};
 
 export default function RootLayout({
   children,
@@ -25,7 +31,7 @@ export default function RootLayout({
         }}
         className={montserrat.className}
       >
-        {children}
+        <MobileWarning>{children}</MobileWarning>
       </body>
     </html>
   );

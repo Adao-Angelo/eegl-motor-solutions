@@ -7,11 +7,11 @@ export default function AreasOfActivity() {
         <h1 className="bg-c-stand rounded-[29px] p-[10px] md:p-[17px] font-extrabold md:text-[30px] text-c-background">
           NOSSAS EMPRESAS
         </h1>
-        <div className="flex  md:gap-[50px] items-center mx-auto my-[50px] md:w-[500px]">
-          <Link href="/">
+        <div className="flex  bg-c-gray-0 p-8 rounded  md:gap-[50px] items-center mx-auto my-[50px] md:w-[500px]">
+          <Link href="/comercioEServicos">
             <img
               className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
-              src="/eegl.png"
+              src="/eegl COMERCIO.png"
               alt="eegl company"
             />
           </Link>
@@ -27,7 +27,7 @@ export default function AreasOfActivity() {
           <Link href="/solucoesMotoras">
             <img
               className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
-              src="/motorSolutions.png"
+              src="/eeglgroup.png"
               alt="eegl company"
             />
           </Link>

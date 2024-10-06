@@ -4,16 +4,16 @@ import Link from "next/link";
 
 export default async function Home() {
   const images = [
-    "/partners/belo.png",
-    "/partners/carrinho.png",
-    "/partners/ferpinta.png",
-    "/partners/prumo.png",
-    "/partners/movicortes.png",
-    "/partners/ffb.png",
-    "/partners/LonAgro.png",
-    "/partners/logo-prodel.png",
-    "/partners/engconsult.png",
-    "/partners/alcaal_angola.png",
+    "/partners/BELO@300x-8.png",
+    "/partners/CARRINHO@300x-8.png",
+    "/partners/FERPINTA@300x-8.png",
+    //"/partners/prumo.png",
+    "/partners/MOVI@300x-8.png",
+    "/partners/FFB@300x-8.png",
+    "/partners/LONAGRO@300x-8.png",
+    "/partners/PRODEL@300x-8.png",
+    "/partners/ENGCONSULT@300x-8.png",
+    "/partners/ALCAAL@300x-8.png",
   ];
   return (
     <main className="px-[15px] md:px-[140px] py-[10px] md:py-[50px] font-regular text-c-text mb-[250px]">
@@ -42,11 +42,11 @@ export default async function Home() {
         <h1 className="bg-c-stand rounded-[29px] p-[10px] md:p-[17px] font-extrabold md:text-[30px] text-c-background">
           NOSSAS EMPRESAS
         </h1>
-        <div className="flex  md:gap-[50px] items-center mx-auto my-[50px] md:w-[500px]">
-          <Link href="/">
+        <div className="flex  bg-c-gray-0 p-8 rounded  md:gap-[50px] items-center mx-auto my-[50px] md:w-[500px]">
+          <Link href="/comercioEServicos">
             <img
               className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
-              src="/eegl.png"
+              src="/eegl COMERCIO.png"
               alt="eegl company"
             />
           </Link>
@@ -62,7 +62,7 @@ export default async function Home() {
           <Link href="/solucoesMotoras">
             <img
               className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
-              src="/motorSolutions.png"
+              src="/eeglgroup.png"
               alt="eegl company"
             />
           </Link>

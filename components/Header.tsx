@@ -37,7 +37,7 @@ export default function Header() {
         <div></div>
         {/* Logo: hidden on mobile, shown on tablets and desktops */}
         <aside className="logo hidden md:block">
-          <img src="/logo.png" alt="Logo" className="w-[350px]" />
+          <img src="/eeglgroup.png" alt="Logo" className="w-[350px]" />
         </aside>
 
         {/* Desktop navbar */}
