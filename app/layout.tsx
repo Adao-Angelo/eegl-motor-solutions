@@ -31,7 +31,7 @@ export default function RootLayout({
         }}
         className={montserrat.className}
       >
-        <MobileWarning>{children}</MobileWarning>
+        {children}
       </body>
     </html>
   );

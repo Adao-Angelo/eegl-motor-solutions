@@ -10,11 +10,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.436.0",
     "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18",
-    "swiper": "^11.1.12"
+    "swiper": "^11.1.12",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
