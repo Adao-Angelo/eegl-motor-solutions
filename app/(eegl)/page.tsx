@@ -62,7 +62,7 @@ export default async function Home() {
           <Link href="/solucoesMotoras">
             <img
               className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
-              src="/eeglgroup.png"
+              src="/logo.png"
               alt="eegl company"
             />
           </Link>

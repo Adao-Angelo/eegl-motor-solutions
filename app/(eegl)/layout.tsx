@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-import "../globals.css";
-import { Mail, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import Link from "next/link";
 import Header from "@/components/Header";
 
