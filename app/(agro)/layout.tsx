@@ -4,6 +4,7 @@ import "../globals.css";
 import { Mail, Phone } from "lucide-react";
 import Link from "next/link";
 import Header from "./ui/agro-Header";
+import MobileWarning from "@/components/ui/MobileWarning";
 
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -26,7 +27,8 @@ export default function RootLayout({
         className={`bg-background-project bg-cover ${montserrat.className}`}
       >
         <Header></Header>
-        {children}
+        <MobileWarning>{children}</MobileWarning>
+
         <footer>
           <div className="bg-c-gray-2 pt-24 pb-[30px] ">
             <div className="nav flex justify-between w-[701px] mx-auto">
