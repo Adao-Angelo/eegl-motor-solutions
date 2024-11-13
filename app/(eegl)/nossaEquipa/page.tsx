@@ -27,7 +27,7 @@ export default async function OurEquip() {
             <img
               alt="image"
               className="rounded-[50%] w-[100%] h-[183px]"
-              src="/1.jpeg"
+              src="/no-profile.jpeg"
             />
             <p className="text-[22px] mt-[20px]">
               Paulo <span className="font-bold">Januário</span>
@@ -47,7 +47,7 @@ export default async function OurEquip() {
             <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
-              src="/1.jpeg"
+              src="/no-profile.jpeg"
             />
             <p className="text-[22px] mt-[20px]">
               Abreu <span className="font-bold"> Dos anjos</span>
@@ -58,7 +58,7 @@ export default async function OurEquip() {
             <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
-              src="/1.jpeg"
+              src="/no-profile.jpeg"
             />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>
@@ -80,7 +80,7 @@ export default async function OurEquip() {
             <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
-              src="/1.jpeg"
+              src="/no-profile.jpeg"
             />
             <p className="text-[22px] mt-[20px]">
               Gouveia <span className="font-bold">Leite</span>

@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         style={{
           backgroundImage: "url(/background.png)",
+          backgroundRepeat: "no-repeat",
         }}
         className={montserrat.className}
       >

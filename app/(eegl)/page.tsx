@@ -38,11 +38,11 @@ export default async function Home() {
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center w-full">
         <h1 className="bg-c-stand rounded-[29px] p-[10px] md:p-[17px] font-extrabold md:text-[30px] text-c-background">
           NOSSAS EMPRESAS
         </h1>
-        <div className="flex  p-8 rounded  md:gap-[50px] items-center mx-auto my-[50px] md:w-[500px]">
+        <div className="flex  p-8 rounded  md:gap-[50px] items-center mx-auto my-[50px] md:w-[800px]">
           <Link href="/comercioEServicos">
             <img
               className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
@@ -62,7 +62,7 @@ export default async function Home() {
           <Link href="/solucoesMotoras">
             <img
               className="w-[70%] md:w-full transition-all duration-500 hover:scale-110"
-              src="/logo.png"
+              src="/SO-MO.png"
               alt="eegl company"
             />
           </Link>
