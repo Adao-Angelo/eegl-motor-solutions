@@ -76,7 +76,7 @@ export default async function OurEquip() {
             </p>
             <p className="text-[14px]">Tecnico junior</p>
           </div>
-          <div className="text-center w-[183px]">
+          {/* <div className="text-center w-[183px]">
             <img
               alt="member"
               className="rounded-[50%] w-[100%] h-[183px]"
@@ -86,7 +86,7 @@ export default async function OurEquip() {
               Gouveia <span className="font-bold">Leite</span>
             </p>
             <p className="text-[14px]">Director Gera</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>
