@@ -73,10 +73,10 @@ export default function Header() {
           <Link href="/areasdeatuacao" className="text-black text-lg">
             ÁREAS DE ATUAÇÃO
           </Link>
-          <Link href="/" className="text-black text-lg">
+          <Link href="/portofolio" className="text-black text-lg">
             PORTOFOLIO
           </Link>
-          <Link href="/" className="text-black text-lg">
+          <Link href="/blog" className="text-black text-lg">
             BLOG
           </Link>
           <Link href="/contactos" className="text-red-600 font-bold text-lg">
