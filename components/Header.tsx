@@ -46,7 +46,7 @@ export default function Header() {
             <Link
               href="#"
               onClick={toggleMenu}
-              className={`px-4 py-2 text-lg ${
+              className={`px-4 py-2 text-lg hover:text-c-stand ${
                 isOpen ? "font-bold text-c-stand" : "text-c-black"
               }`}
             >
@@ -57,29 +57,38 @@ export default function Header() {
               <div className="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-50">
                 <Link
                   href="/sobrenos"
-                  className="block px-4 py-2 text-c-text text-[14px] hover:bg-gray-200"
+                  className="block px-4 py-2 text-c-text hover:text-c-stand text-[14px] hover:bg-gray-200"
                 >
                   QUEM SOMOS
                 </Link>
                 <Link
                   href="/nossaEquipa"
-                  className="block px-4 py-2 text-c-text text-[14px] hover:bg-gray-200"
+                  className="block px-4 py-2 text-c-text hover:text-c-stand  text-[14px] hover:bg-gray-200"
                 >
                   NOSSA EQUIPA
                 </Link>
               </div>
             )}
           </div>
-          <Link href="/areasdeatuacao" className="text-black text-lg">
+          <Link
+            href="/areasdeatuacao"
+            className="text-black text-lg hover:text-c-stand "
+          >
             ÁREAS DE ATUAÇÃO
           </Link>
-          <Link href="/portofolio" className="text-black text-lg">
+          <Link
+            href="/portofolio"
+            className="text-black text-lg hover:text-c-stand "
+          >
             PORTOFOLIO
           </Link>
-          <Link href="/blog" className="text-black text-lg">
+          <Link href="/blog" className="text-black text-lg hover:text-c-stand ">
             BLOG
           </Link>
-          <Link href="/contactos" className="text-red-600 font-bold text-lg">
+          <Link
+            href="/contactos"
+            className="text-red-600 font-bold text-lg hover:text-c-black"
+          >
             CONTACTOS
           </Link>
         </aside>
@@ -95,7 +104,7 @@ export default function Header() {
       {/* Mobile dropdown menu */}
       {isMenuOpen && (
         <section className="flex flex-col items-center bg-white shadow-md md:hidden">
-          <Link href="/" className="py-2 text-lg text-c-black">
+          <Link href="/" className="py-2 text-lg text-c-black ">
             SOBRE NÓS
           </Link>
           <Link href="/areasdeatuacao" className="py-2 text-lg text-c-black">

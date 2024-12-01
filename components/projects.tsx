@@ -26,7 +26,12 @@ const projects = [
   {
     title: "Manutenção de Ceifeira CASE",
     location: "Luanda aos, 17/02/2023",
-    image: "/work01.jpeg",
+    image: "/work04.jpeg",
+  },
+  {
+    title: "Canal de distribuição de água",
+    location: "Luanda aos, 17/02/2024",
+    image: "/work05.jpeg",
   },
 ];
 

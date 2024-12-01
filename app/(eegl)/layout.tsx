@@ -26,19 +26,34 @@ export default function RootLayout({
         <footer>
           <div className="bg-c-gray-2 pt-24 pb-[30px] ">
             <div className="nav sm:flex hidden justify-between w-[701px] mx-auto">
-              <Link href="/" className="text-c-background text-lg">
+              <Link
+                href="/"
+                className="text-c-background text-lg  hover:text-c-stand "
+              >
                 HOME
               </Link>
-              <Link href="/sobrenos" className="text-white text-lg">
+              <Link
+                href="/sobrenos"
+                className="text-white text-lg  hover:text-c-stand "
+              >
                 SOBRE NÓS
               </Link>
-              <Link href="/areasdeatuacao" className="text-white text-lg">
+              <Link
+                href="/areasdeatuacao"
+                className="text-white text-lg  hover:text-c-stand "
+              >
                 ÁREAS DE ATUAÇÃO
               </Link>
-              <Link href="/portfólio" className="text-white text-lg">
+              <Link
+                href="/portfólio"
+                className="text-white text-lg  hover:text-c-stand "
+              >
                 PORTOFOLIO
               </Link>
-              <Link href="/blog" className="text-white text-lg">
+              <Link
+                href="/blog"
+                className="text-white text-lg  hover:text-c-stand "
+              >
                 BLOG
               </Link>
             </div>

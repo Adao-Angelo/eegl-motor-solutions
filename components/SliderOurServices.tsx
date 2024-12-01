@@ -46,7 +46,7 @@ export default function SliderOurServices() {
           <button
             key={`${service.id}-${service.title}`}
             onClick={() => setActiveService(service.id)}
-            className={`p-[18px] font-bold rounded-[8px] ${
+            className={`p-[18px] font-bold hover:bg-c-gray-2 rounded-[8px] ${
               activeService === service.id
                 ? "bg-gradient-red text-c-background"
                 : "bg-c-black text-c-background"
